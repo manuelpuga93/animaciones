@@ -1,0 +1,27 @@
+.square {
+    width: 250px;
+    height: 250px;
+    margin: 1 rem 0 2rem 1rem;
+    background-color: blue;
+}
+#color .square{
+    -webkit-transition: background-color 800ms;
+    -moz-transition: background-color 800ms;
+    -o-transition: background-color 800ms;
+    -ms-transition: background-color 800ms;
+    transition: background-color 800ms;
+}
+#color .square:hover{
+    background-color: green;
+}
+#circle .square{
+    -webkit-transition: background-color 800ms, border-radius 800ms;
+    -moz-transition: background-color 800ms, border-radius 800ms;
+    -o-transition: background-color 800ms, border-radius 800ms;
+    -ms-transition: background-color 800ms, border-radius 800ms;
+    transition: background-color 800ms, border-radius 800ms;
+}
+#circle .square:hover{
+    border-radius: 50%;
+    background-color: purple;
+}

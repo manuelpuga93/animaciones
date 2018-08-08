@@ -1,0 +1,36 @@
+.btn {
+    background-color: #00a0d6;
+    color: #FFFFFF;
+    transition: background-color 0.4s, color 0.4s;
+    position: relative;
+    width: 8rem;
+}
+
+.btn:hover {
+    background-color: #007DA7;
+    color: #E3E3E3;
+}
+
+.top {
+    top: 0;
+}
+
+.btn:hover .top {
+    top: -100px;
+}
+
+.bottom {
+    top: 100px;
+    right: 100px;
+}
+
+.btn:hover .bottom {
+    top: 0px;
+    right: 100px;
+}
+
+.content {
+    position: relative;
+    transition: top 0.3s;
+    overflow: hidden;
+}
